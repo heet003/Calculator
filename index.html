@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="./Images/calculator.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="calculator">
+            <p id="operations" class="screen">0</p>
+            <p id="screen" class="screen">0</p>
+            <div id="key-pad" class="key-pad">
+                <div class="num-keys">
+                    <table>
+                        <tr>
+                            <th><button id="clear">AC</button></th>
+                            <th><button id="plus-minus">⁺/₋</button></th>
+                            <th><button id="operators">%</button></th>
+                            <th><button id="operators">/</button></th>
+                        </tr>
+                        <tr>
+                            <td><button id="numbers">7</button></td>
+                            <td><button id="numbers">8</button></td>
+                            <td><button id="numbers">9</button></td>
+                            <td><button id="operators">*</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="numbers">4</button></td>
+                            <td><button id="numbers">5</button></td>
+                            <td><button id="numbers">6</button></td>
+                            <td><button id="operators">-</button></td>
+                        </tr>
+                        <tr>
+                            <th><button id="numbers">1</button></th>
+                            <th><button id="numbers">2</button></th>
+                            <th><button id="numbers">3</button></th>
+                            <th><button id="operators">+</button></th>
+                        </tr>
+                        <tr>
+                            <td><button class="numbers zero">0</button></td>
+                            <td></td>
+                            <td><button id="dot">.</button></td>
+                            <td><button id="equal-to">=</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>
